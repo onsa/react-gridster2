@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": true,
+    "jsx": "react-jsx",
+    "outDir": "dist"
+  },
+  "include": ["src/lib/**/*.ts", "src/lib/**/*.tsx"],
+  "exclude": ["node_modules", "dist", "demo"]
+}
